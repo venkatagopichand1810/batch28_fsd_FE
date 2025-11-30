@@ -33,7 +33,7 @@ function StudentForm() {
             });
 
             if(res.ok){
-                const data = await res.json(); 
+                await res.json(); 
 
                 // clear form
                 setStudent({
